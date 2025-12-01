@@ -1,4 +1,4 @@
-# UConn-IoT
+# MIDI Multitool
 
 IoT device based on ESP32-S3 with edge processing (either with Raspberry Pi or Jetson Orin Nano).
 
