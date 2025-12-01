@@ -625,7 +625,7 @@ def publish_note_events_mqtt(client, cleaned_notes, tempo=None,
     client.publish(topic, json.dumps(payload))
     print(
         f"[INFO] Published {len(ev_list)} note events to MQTT topic '{topic}, "
-        f"length={patten_length:.3f}s"
+        f"length={pattern_length:.3f}s"
     )
 
 #TensorFlow Basic-Pitch Inference backend (not used in ONNX mode, called from run_amt_pipeline)
